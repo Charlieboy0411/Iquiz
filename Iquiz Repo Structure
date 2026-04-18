@@ -1,0 +1,33 @@
+retail-quiz-platform/
+│
+├── client/                # React App
+│   ├── src/
+│   │   ├── pages/
+│   │   │   ├── Login.jsx
+│   │   │   ├── JoinQuiz.jsx
+│   │   │   ├── QuizRoom.jsx
+│   │   │   └── Dashboard.jsx
+│   │   ├── components/
+│   │   ├── socket.js
+│   │   ├── api.js
+│   │   └── App.jsx
+│
+├── server/
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── Quiz.js
+│   │   └── Result.js
+│   │
+│   ├── routes/
+│   │   ├── auth.js
+│   │   └── quiz.js
+│   │
+│   ├── middleware/
+│   │   └── auth.js
+│   │
+│   ├── socket/
+│   │   └── quizSocket.js
+│   │
+│   └── server.js
+│
+└── README.md
